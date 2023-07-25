@@ -1,0 +1,45 @@
+/home/user/Downloads/chiemekaifemegbulem.jpeg
+
+When you type “https://www.google.com" in your web browser and hit Enter, a fascinating journey begins behind the scenes to bring the Google homepage to your screen, in this article, I’ll walk you through each step in detail.
+
+DNS Request
+
+The process starts with a DNS request, your browser needs to find the IP address of the server hosting “www.google.com." imagine DNS as a massive phone-book for the internet, when you type a URL like “google.com” into your browser, it first sends a query to the DNS server, asking, “Hey, what’s the IP address for google.com?” The DNS server replies with the correct IP address such as 8.8.8.8 or 8.8.4.4 or any other IP address.
+
+TCP/IP
+
+Once the IP address is obtained, your browser establishes a connection using TCP/IP (Transmission Control Protocol/Internet Protocol), think of TCP/IP as the foundation of internet communication, it ensures that data is divided into packets, sent over the internet, and then reassembled correctly on the receiving end, it’s like a digital postman ensuring that all your data packets reach their destination safely and in order.
+
+Firewall
+
+Before your request reaches the server, it may pass through a firewall, a firewall is like a digital security guard that monitors and filters incoming and outgoing network traffic, its role is to protect the server from unauthorized access, viruses, malware, and other potential threats, the firewall checks if the incoming request is safe, and if it passes the security check, it allows the request to proceed.
+
+HTTPS/SSL
+
+Modern websites like Google use HTTPS (Hypertext Transfer Protocol Secure) to ensure a secure connection between your browser and the server, you can identify this by the “https://” at the beginning of the URL. HTTPS uses SSL (Secure Sockets Layer) or its more modern counterpart TLS (Transport Layer Security) to encrypt the data being transmitted, it’s like sending your information in a locked safe, so no one can eavesdrop or tamper with it while it’s on its way.
+
+Load Balancer
+
+Google is a massive website, serving billions of users worldwide, to handle such a massive load efficiently, they use multiple servers, a load balancer acts as traffic police, directing incoming requests to different servers, it ensures that no single server gets overwhelmed with too many requests, making the website faster and more reliable for users.
+
+Web Server
+
+Once your request passes through the load balancer, it reaches one of Google’s web servers. Web servers are like master chefs in a restaurant kitchen, they handle all the cooking and serve up the delicious webpage you see on your screen, when the web server receives your request, it looks for the specific page you want (in this case, the Google homepage), gathers all the ingredients (like text, images, and links), and cooks up a tasty HTML dish.
+
+Application Server
+
+In some cases, the web server needs help from an application server to process certain tasks or fetch dynamic content, think of the application server as a sous chef, it supports the web server, executing code, interacting with databases, and performing various computations to provide a personalized and interactive experience, for instance, when you perform a search on Google, the application server handles the request and retrieves relevant search results from the database.
+
+Database
+
+Behind Google’s simple search box lies a vast treasure trove of data, this data is stored in databases, which are like massive warehouses full of information, when you search for something, the application server queries the database to find relevant results, the database then replies with the necessary data, and the application server processes it before serving it up to the web server.
+
+Rendering
+
+With all the ingredients gathered and processed, the web server proceeds to assemble the final webpage, it’s like putting all the delicious elements together on a plate, the web server generates an HTML page that includes text, images, links, and other resources required to make the Google homepage visually appealing and functional.
+
+Browser Display
+
+The moment we’ve been waiting for 😀 the web server sends the fully prepared HTML page back to your browser, your browser receives the page and starts to work its magic, it interprets the HTML code and renders the page on your screen, the images load, the text appears, and the links become clickable, your browser also fetches additional resources, like style-sheets and scripts, to make the page look polished and interactive.
+
+Finally, there you have it, in a whirlwind of DNS requests, TCP/IP handshakes, firewalls, HTTPS encryption, load balancing, web servers, application servers, databases, rendering, and browser display, the Google homepage appears before you, ready to assist with your search queries and take you on a journey through the vast universe of the internet, all these incredible processes happen in just a blink of an eye, thanks to the marvels of modern technology.
